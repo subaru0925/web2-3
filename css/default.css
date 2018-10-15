@@ -8,91 +8,91 @@
 <body>
 @charset"UTF-8"
 h1{
-  font-size:1.75em;
-  color:#3399cc
-    text-align:center
+  font-size: 1.75em;
+  color: #3399cc
+    text-align: center
   }
 h2{
-  font-size:1.25em;
-  colo:#3399cc
-  color:#ffffff
+  font-size: 1.25em;
+  colo: #3399cc
+  color: #ffffff
 }
 p{
-  font-size:0.8em;
-  color:#333333;
-  line-height:1.75em;
+  font-size: 0.8em;
+  color: #333333;
+  line-height: 1.75em;
 }
 li{
-  font-size:0.8em
-  color:#333333;
+  font-size: 0.8em
+  color: #333333;
   }
   address{
-    font-size:0.75em;
-    font-style:italic;
+    font-size: 0.75em;
+    font-style: italic;
   }
 body{
-  dackground-color:#fbf9cc;/*背景色を変える*/
-  background-image:ur1(../img/fuji.png);
-  background-repeat:repeat-x;
+  dackground-color: #fbf9cc;/*背景色を変える*/
+  background-image: ur1(../img/fuji.png);
+  background-repeat: repeat-x;
 }
 h1{
-  font-size:1.75em;
-  color:#3399cc;
+  font-size: 1.75em;
+  color: #3399cc;
 }
 h2{
-  font-size:1.25em;
-  color:#ffffff;
-  border:#94c8b1 1px dotted;/*境界線*/
-  border-left:#d0e35b 10px solid;
-  margin-bottom:0;/*隣り合う要素との間隔*/
-  padding:5px 20px;
+  font-size: 1.25em;
+  color: #ffffff;
+  border: #94c8b1 1px dotted;/*境界線*/
+  border-left: #d0e35b 10px solid;
+  margin-bottom: 0;/*隣り合う要素との間隔*/
+  padding: 5px 20px;
 }
 p{
-  font-size:0.8em;
-  background-colo:#3399cc;/*段落の文字の背景の色だけが変わる*/
-  color:#333333;
+  font-size: 0.8em;
+  background-colo: #3399cc;/*段落の文字の背景の色だけが変わる*/
+  color: #333333;
 }
 a{
-  color:#df4839
+  color: #df4839
 }
 a:hover{
-  color:#ff705b;/*マウスが乗った時だけ特別な色*/
+  color: #ff705b;/*マウスが乗った時だけ特別な色*/
 }
 h1 span{
-  color:#d0e35b;
+  color: #d0e35b;
 }
 h1 a{
-  color:#d0e35b;
+  color: #d0e35b;
 }
 #lead{
-               border-top:#6fbb9a 1px botted;
-               text-align:center;
+               border-top: #6fbb9a 1px botted;
+               text-align: center;
                }
              greeting{
-               border-top:#6fbb9a 1px dotted;
-               text-align:center;
+               border-top: #6fbb9a 1px dotted;
+               text-align: center;
              }
              p.greeting{
-               border-top:#6fbb9a 1px dotted;
-               text-align:center;
+               border-top: #6fbb9a 1px dotted;
+               text-align: center;
              }
                @charset "UTF-8";
                .cat{
-                    font-size:70%;
-                    padding:20px 0px;
-                    padding-right:30px;
-                    background-inage:ur1(../img/arrow.png);
-                    background-position:right center;
+                    font-size: 70%;
+                    padding: 20px 0px;
+                    padding-right: 30px;
+                    background-inage: ur1(../img/arrow.png);
+                    background-position: right center;
                 }
                 .male{
-                       color:#2793a7;
+                       color: #2793a7;
                  }
                 .female{
-                        color:#df972f;
+                        color: #df972f;
                  }
-     H1,h2,h3{color:#ff0000;}
-     #hoge,#ora{color:#00ff00;}
-     .hoge,#hoge.ora{color:#0000ff;}
+     H1,h2,h3{color: #ff0000;}
+     #hoge,#ora{color: #00ff00;}
+     .hoge,#hoge.ora{color: #0000ff;}
                
 </body>
 </html>
